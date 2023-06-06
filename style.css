@@ -1,0 +1,63 @@
+body {
+    /* background-color: rgb(40, 3, 66); */
+    background-color:  rgb(216, 231, 4);
+}
+
+.kotak {
+    background-color: white;
+    width: 400px;
+    height: 247px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    /* border atas */
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: deeppink;
+
+    /* border bawah */
+    border-bottom-color: dodgerblue;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.gambar_profile {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 100%;
+
+    border-color: rgb(216, 231, 4);
+    border-width: 5px;
+    border-style: solid;
+}
+
+
+.nama {
+    font-family: Tahoma;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.jurusan {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Courier New';
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.tulisan_berjalan {
+    font-family: monospace;
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+}
